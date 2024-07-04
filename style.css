@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../assest/it2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.whole{
+    display: flex;
+    justify-content: center;
+
+}
+.full{
+    margin-top: 30px;
+    border: 0.5px solid white;
+    box-shadow: 10px 10px 10px white;
+    border-radius: 30px;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+}
+.in{
+    margin: 20px;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid grey;
+
+}
+
+.in:focus{
+   
+    border: 1px solid green;
+    
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+#sub{
+    font-size: 15px;
+    padding: 6px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+#can{
+    font-size: 15px;
+    padding: 6px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+@media (min-width:375px) and (max-width:600px) {
+    .full{
+     width: 100%;
+    }
+    
+}
+#label{
+    color: gray;
+}
+#sel{
+    border: none;
+    float: right;
+}
+.opt option{
+    color: gray;
+}
+/* .opt{
+
+    margin-left: 80px;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    background-color: white;
+} */
+
+
+
+input::placeholder{
+    color: black;
+}
